@@ -837,6 +837,7 @@ body.fullPage-portfolio {
 #logo img {
     width: 150px;
   height: auto;
+  opacity: .3;
 }
 
 
