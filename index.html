@@ -1,144 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Instalimos</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--[if lt IE 9]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+<html>
+  <head>
+    <title>Full Page Portfolio</title><link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" /><link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" media="all" rel="stylesheet" type="text/css" /><link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css" media="all" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet">
+
+
     
-  <!-- bootstrap + core CSS -->
-  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.1/modernizr.min.js" type="text/javascript"></script>
+         <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.poptrox.min.js"></script>
+      <script src="js/jquery.scrolly.min.js"></script>
+      <script src="js/jquery.scrollgress.min.js"></script>
+      <script src="js/skel.min.js"></script>
+      <script src="js/init.js"></script>
+            <noscript>
+         <link rel="stylesheet" href="css/skel.css" />
+         <link rel="stylesheet" href="css/styles.css" />
+         <link rel="stylesheet" href="css/style-wide.css" />
+         <link rel="stylesheet" href="css/style-normal.css" />
+      </noscript>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  </head>
 
-  <!-- font awesome -->
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <!-- site specific styles -->
-  <link href="css/reset.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
 
-  <script src="js/modernizr.js"></script> <!-- Modernizr -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-
-</head>
-
-<body>
-
-  <!-- navbar -->
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Instalimos Prep</a>
+<body class="fullPage-portfolio">
+   <div id="menu">
+      <div class="menu-bars">
+         <span></span>
       </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="pivot/documentation/pivot-docs/index.html" target="_blank">Pivot Documentation</a></li>
-          <li><a href="pivot/documentation/variant-docs/index.html" target="_blank">Variant Docs</a></li>
-          <li><a href="pivot/pivot/index.html" target="_blank">Pivot</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
+   </div>
 
-  <div class="container" style="padding-top: 70px;">
-    <div class="row">
-      <div class="col-md-12">
-        <img src="img/i-did-it.gif" style="margin: 30px auto;" class="img-responsive">
+   <div id="logo" class="img-responsive">
+      <img src="img/logo-1.png"></img>
+   </div>
+
+
+
+
+   <div class="text-center" id="fullpage">
+
+
+
+      <div class="section active" id="section0" >
+
+         <div id="intro" class="main style1 dark fullscreen">
+            <div class="content container small">
+               <header>
+                  <h2>FIND YOUR DREAM LIMO</h2>
+               </header>
+                  <p>Learn More</p>
+               <footer>
+                  <a href="#secondPage" class="button style2 down">More</a>
+               </footer>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="section" id="section1">
+         <section id="one" class="main style2 right dark fullscreen ">
+            <div class="content box style2">
+               <header>
+                  <h2>Curated Vendors</h2>
+               </header>
+               <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. 
+               Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, 
+               id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+            </div>
+            <a href="#thirdPage" class="button style2 down anchored">Next</a>
+         </section>
+      </div>
+
+
+
+      <div class="section" id="section2">
+         <section id="two" class="main style2 left dark fullscreen">
+            <div class="content box style2">
+               <header>
+                  <h2>Exclusive Discounts</h2>
+               </header>
+               <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. 
+               Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, 
+               id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+            </div>
+            <a href="#fourthPage" class="button style2 down anchored">Next</a>
+         </section>
+      </div>
+
+
+      <div class="section" id="section3">
+         <section id="two" class="main style2 right dark fullscreen">
+            <div class="content box style2">
+               <header>
+                  <h2>Uniquely You</h2>
+               </header>
+               <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. 
+               Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, 
+               id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+            </div>
+            <a href="#fifthPage" class="button style2 down anchored">Next</a>
+         </section>
+      </div>
+
+
+
+      <div class="section" id="section4">
+        <div class="intro">
+          <h1>
+            Add to your project & enjoy!
+          </h1>
+        </div>
       </div>
     </div>
 
-    <div class="row" style="margin-top: 200px;">
-      <ul class="button-display">
-        <ul class="button-display">
-          <h2> Default / Primary / Embossed </h2>
-          <li><a href="#"  class="btn btn-default">button</a></li>
-          <li><a href="#"  class="btn btn-default btn-embossed">button</a></li>
-          <li> <a href="#" class="btn btn-primary">button</a></li>
-          <li><a href="#" class="btn btn-primary btn-embossed">button</a></li>
+
+
+    <div class="overlay">
+      <nav>
+        <ul>
+          <li>
+            <a href="#firstPage">Welcome</a>
+          </li>
+          <li>
+            <a href="#secondPage">Slides</a>
+          </li>
+          <li>
+            <a href="#thirdPage">Animation</a>
+          </li>
+          <li>
+            <a href="#fourthPage">Full backgrounds</a>
+          </li>
+          <li>
+            <a href="#fifthPage">Enjoy!</a>
+          </li>
         </ul>
-        <li>
-          <ul class="button-display">
-            <h2> Wide </h2>
-            <li><a href="#" class="btn btn-default btn-primary btn-wide">button</a></li>
-            <li><a href="#" class="btn btn-default btn-primary btn-wide btn-embossed">button</a></li>
-          </ul>
-        </li>
-      </ul>
+      </nav>
     </div>
 
-    <div class="row" >
-      <ul class="button-display">
-        <li>
-          <ul class="button-display">
-            <h2> x-small (xs) </h2>
-            <li><a href="#" class="btn btn-xs btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul class="button-display">
-            <h2> small (sm) </h2>
-            <li><a href="#" class="btn btn-sm btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul class="button-display">
-            <h2> med (default) </h2>
-          <li><a href="#" class="btn btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-         <li>
-          <ul class="button-display">
-            <h2> large (lg) </h2>
-            <li><a href="#" class="btn btn-lg btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-        
-        <li>
-          <ul class="button-display">
-            <h2> huge </h2>
-            <li><a href="#" class="btn btn-hg btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-       
-        
-    </div>
-  </div>
 
 
+    <!-- script references -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- end content  -->
-
-  <!-- script references -->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-  
-
-</body>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
