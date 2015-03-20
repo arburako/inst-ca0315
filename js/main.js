@@ -19,7 +19,9 @@
         if (anchorLink === "secondPage") {
           $("#section1 .content").addClass("animated fadeInRight");
         }
-
+        if (anchorLink === "fifthPage") {
+          $("#mc_embed_signup .mailform").addClass("animated fadeInLeftBig");
+        }
       }
     });
     $("#menu").click(function() {
