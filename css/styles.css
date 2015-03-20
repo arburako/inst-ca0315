@@ -1413,3 +1413,15 @@ body.fullPage-portfolio {
   word-spacing: 0px;
   writing-mode: lr-tb;
 }
+
+
+
+
+
+@media screen and (max-height: 30.5em) {
+  .overlay nav {
+    height: 70%;
+    font-size: 34px; }
+  .overlay ul li {
+    min-height: 34px; } 
+  }
