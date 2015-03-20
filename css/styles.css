@@ -1133,7 +1133,7 @@ body.fullPage-portfolio {
 /* Intro                                                                         */
 /*********************************************************************************/
 
-  #section0 {
+  #intro {
     background: url('http://arburako.github.io/inst-ca0315/img/overlay.png'), url('http://arburako.github.io/inst-ca0315/img/intro.jpg');
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
@@ -1184,4 +1184,14 @@ body.fullPage-portfolio {
 
 
 
+/*********************************************************************************/
+/* thankyou                                                                        */
+/*********************************************************************************/
 
+  #thankyou {
+    background: url('../img/overlay.png'), url('../img/thankyou.jpg');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
+  }
