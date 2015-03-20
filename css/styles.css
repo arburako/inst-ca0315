@@ -946,7 +946,7 @@ body.fullPage-portfolio {
         height: 5em;
         line-height: 4.5em;
         padding: 0;
-        background-image: url(../img/dark-arrow.svg);
+        background-image: url('http://arburako.github.io/inst-ca0315/img/dark-arrow.svg');
         background-position: center center;
         background-repeat: no-repeat;
         text-indent: -10em;
@@ -997,7 +997,7 @@ body.fullPage-portfolio {
         }
         
         .button.style2.down {
-          background-image: url('../img/arrow.svg');
+          background-image: url('http://arburako.github.io/inst-ca0315/img/arrow.svg');
         }
 
   /* Box */
@@ -1125,7 +1125,7 @@ body.fullPage-portfolio {
         }
         
         .dark .button.style2.down {
-          background-image: url('../img/dark-arrow.svg');
+          background-image: url('http://arburako.github.io/inst-ca0315/img/dark-arrow.svg');
         }
 
   
@@ -1134,7 +1134,7 @@ body.fullPage-portfolio {
 /*********************************************************************************/
 
   #section0 {
-    background: url('../img/overlay.png'), url('../img/intro.jpg');
+    background: url('http://arburako.github.io/inst-ca0315/img/overlay.png'), url('http://arburako.github.io/inst-ca0315/img/intro.jpg');
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
@@ -1148,7 +1148,7 @@ body.fullPage-portfolio {
 /*********************************************************************************/
 
   #section1 {
-    background: url('../img/overlay.png'), url('../img/section1.jpg');
+    background: url('http://arburako.github.io/inst-ca0315/img/overlay.png'), url('http://arburako.github.io/inst-ca0315/img/section1.jpg');
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
@@ -1161,7 +1161,7 @@ body.fullPage-portfolio {
 /*********************************************************************************/
 
   #section2 {
-    background: url('../img/overlay.png'), url('../img/section2.jpg');
+    background: url('http://arburako.github.io/inst-ca0315/img/overlay.png'), url('http://arburako.github.io/inst-ca0315/img/section2.jpg');
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
@@ -1175,7 +1175,7 @@ body.fullPage-portfolio {
 /*********************************************************************************/
 
   #section3 {
-    background: url('../img/overlay.png'), url('../img/section3.jpg');
+    background: url('http://arburako.github.io/inst-ca0315/img/overlay.png'), url('http://arburako.github.io/inst-ca0315/img/section3.jpg');
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
