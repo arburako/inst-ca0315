@@ -1182,7 +1182,17 @@ body.fullPage-portfolio {
     background-repeat: repeat, no-repeat;
   }
 
+/*********************************************************************************/
+/* Section4                                                                     */
+/*********************************************************************************/
 
+  #section4 {
+    background: url('../img/overlay.png'), url('../img/section4.jpg');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
+  }
 
 /*********************************************************************************/
 /* thankyou                                                                        */
@@ -1208,3 +1218,198 @@ body.fullPage-portfolio {
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
   }
+
+#mc_embed_signup {
+   -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-font-smoothing: antialiased;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-origin: padding-box;
+  background-size: auto;
+  border-bottom-color: rgb(131, 140, 149);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(131, 140, 149);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(131, 140, 149);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(131, 140, 149);
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  clear: both;
+  color: rgb(131, 140, 149);
+  display: block;
+  font-family: opensans-regular, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  height: 60px;
+  line-height: 30px;
+  margin: 6px 0 30px 0;
+  outline-color: rgb(131, 140, 149);
+  outline-style: none;
+  outline-width: 0px;
+  padding: 0;
+  text-align: center;
+  vertical-align: baseline;
+  width: 100%;
+}
+#mce-EMAIL{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInLeftBig;
+  -webkit-appearance: none;
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-font-smoothing: antialiased;
+  -webkit-rtl-ordering: logical;
+  -webkit-user-select: text;
+  -webkit-writing-mode: horizontal-tb;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(211, 217, 217);
+  background-image: none;
+  background-origin: padding-box;
+  background-size: auto;
+  border-bottom-color: rgb(100, 115, 115);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(100, 115, 115);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(100, 115, 115);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(100, 115, 115);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  color: rgb(100, 115, 115);
+  cursor: auto;
+  display: block;
+  float: left;
+  font-family: montserrat-regular, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: 60px;
+  letter-spacing: normal;
+  line-height: 24px;
+  margin: 0;
+  max-width: 100%;
+  opacity: 0.999999940395355;
+  outline-color: rgb(100, 115, 115);
+  outline-style: none;
+  outline-width: 0px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 18px;
+  text-align: center;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  vertical-align: middle;
+  width: 47%;
+  word-spacing: 0px;
+  writing-mode: lr-tb;
+}
+
+#mc-embedded-subscribe {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: fadeInRightBig;
+  -webkit-appearance: none;
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-font-smoothing: antialiased;
+  -webkit-rtl-ordering: logical;
+  -webkit-transition-delay: 0s;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-user-select: none;
+  -webkit-writing-mode: horizontal-tb;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(17, 171, 176);
+  background-image: none;
+  background-origin: padding-box;
+  background-size: auto;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(255, 255, 255);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(255, 255, 255);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(255, 255, 255);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: block;
+  float: right;
+  font-family: montserrat-bold, sans-serif;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: 60px;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin: 0;
+  opacity: 0.999999940395355;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  text-align: center;
+  text-decoration: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: uppercase;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  width: 47%;
+  word-spacing: 0px;
+  writing-mode: lr-tb;
+}
