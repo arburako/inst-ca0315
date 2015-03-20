@@ -81,18 +81,21 @@
 		line-height: 2.5em;
 	}
 
-	body {
-		padding-top: 2.5em;
-	}
 
-	#logo {
-		text-align: center;
-		position: relative;
-		left: 0;
-		top: 0;
-		height: 2.5em;
-		line-height: 2.5em;
-	}
+
+
+  #logo {  
+  position: fixed;
+  z-index: 70;
+  top: 0;
+  right: 40%;
+  cursor: pointer; }
+
+#logo img {
+    width: 100px;
+  height: auto;
+  opacity: .3;
+}
 	
 		#logo a {
 			font-size: 1em;

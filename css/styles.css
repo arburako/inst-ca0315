@@ -772,7 +772,9 @@ body.fullPage-portfolio {
     height: 70%;
     font-size: 34px; }
   .overlay ul li {
-    min-height: 34px; } }
+    min-height: 34px; } 
+  }
+
 #menu {
   position: fixed;
   z-index: 70;
@@ -942,14 +944,14 @@ body.fullPage-portfolio {
     }
 
       .button.down {
-        width: 5em;
-        height: 5em;
-        line-height: 4.5em;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
         padding: 0;
-        background-image: url('http://arburako.github.io/inst-ca0315/img/dark-arrow.svg');
+        background-image: url('../img/dark-arrow.svg');
         background-position: center center;
         background-repeat: no-repeat;
-        text-indent: -10em;
+        x-text-indent: -10em;
         overflow: hidden;
       }
       
@@ -1125,7 +1127,7 @@ body.fullPage-portfolio {
         }
         
         .dark .button.style2.down {
-          background-image: url('http://arburako.github.io/inst-ca0315/img/dark-arrow.svg');
+          background-image: url('../img/dark-arrow.svg');
         }
 
   
@@ -1416,7 +1418,9 @@ body.fullPage-portfolio {
 
 
 
-
+.container-fluid {
+  padding: 0;
+}
 
 @media screen and (max-height: 30.5em) {
   .overlay nav {
